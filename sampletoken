@@ -111,10 +111,10 @@
 +
 +
 +    // ------------------------------------------------------------------------
-+    // Constructor
++    // Constructor -- change symbol for TICKER, change _totalSupply for supply
 +    // ------------------------------------------------------------------------
 +    constructor() public {
-+        symbol = "FIXED";
++        symbol = "FIXED"; 
 +        name = "Example Fixed Supply Token";
 +        decimals = 18;
 +        _totalSupply = 1000000 * 10**uint(decimals);
